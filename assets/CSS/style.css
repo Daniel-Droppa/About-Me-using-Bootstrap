@@ -44,7 +44,13 @@ body {
     padding: 40px 40px;
     
 }
-
+.contenttitle h1 {
+    border-bottom: black 1px solid;
+}
+.portholder {
+    background: white;
+    margin: 40px 40px;
+}
 
 footer {
     border-top: 10px solid rgb(91,192,222);
@@ -80,15 +86,27 @@ footer {
      width: 100%;
      margin: 0;
      padding: 10px;
+     margin-bottom: 30px;
      
     }
 
     .wrapper {
+        border: 0;
+        padding: 20px;
+        margin: 0 30px;
+        padding-top: 200px;
         
-        margin: 50px 20px;
-        padding: 50px 20px;
     }
-   
+    .contenttitle h1{
+        
+    }
+    .headshot {
+        padding-left: 125px;
+    }
+   footer {
+       margin-top: 40px;
+       padding-bottom: 30px;
+   }
 }
 
 
