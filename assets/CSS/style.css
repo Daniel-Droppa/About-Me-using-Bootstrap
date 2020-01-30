@@ -26,17 +26,19 @@ body {
   }
 
   #navigation {
-    /* Positioning */
+    
     float: right;
-    padding: 38px 30px;
-    margin-right: 80px;
-    /* Visual */
+    padding: 38px 0px;
+    padding-left: 700px;
+    
+        /* Visual */
     background: white;
-    width: 1059px;
+    /* width: 1059px; */
+    
   }
 
 .wrapper {
-    justify-content: center;
+    /* justify-content: center; */
     background: white;
     margin: 20px 40px;
     padding: 40px 40px;
@@ -61,17 +63,31 @@ footer {
 
 @media screen and (max-width: 640px) {
 
+   
     .toparea {
-        margin: 0;
-        background: red;
+        margin: 10px 0;
+        padding: 0;
+        width: 100%;
+        
+        
     }
-
+    #name {
+    width: 640px;
+    text-align: center;
+    
+    }
     #navigation {
-     width: 640px;
+     width: 100%;
      margin: 0;
+     padding: 10px;
+     
     }
 
-
+    .wrapper {
+        
+        margin: 50px 20px;
+        padding: 50px 20px;
+    }
    
 }
 
