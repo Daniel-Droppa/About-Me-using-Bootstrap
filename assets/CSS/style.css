@@ -23,6 +23,7 @@ body {
     /* Visual */
     background: rgb(91,192,222);
     width: 300px;
+    color: white;
   }
 
   #navigation {
@@ -36,21 +37,21 @@ body {
     /* width: 1059px; */
     
   }
+.nav-link {
+    color: grey;
+}
 
-.wrapper {
-    /* justify-content: center; */
-    background: white;
-    margin: 20px 40px;
-    padding: 40px 40px;
     
 }
 .contenttitle h1 {
     border-bottom: black 1px solid;
+    color: rgb(91,192,222);
 }
 .portholder {
     background: white;
     margin: 40px 40px;
 }
+
 
 footer {
     border-top: 10px solid rgb(91,192,222);
@@ -90,23 +91,51 @@ footer {
      
     }
 
-    .wrapper {
+    /* .wrapper {
         border: 0;
         padding: 20px;
         margin: 0 30px;
         padding-top: 200px;
         
+    } */
+    .contenttitle {
+        margin: 20px 40px;
     }
-    .contenttitle h1{
+    .portholder {
+        margin: 0 40px 20px 40px;
+        display: inline-block;
+        width: 560px;
+
+    }
+    .contenttitle h1 {
+        border-bottom: black 1px solid;
+        color: rgb(91,192,222);
+        padding-bottom: 20px;
         
     }
+    .row {
+        display: inline-block;
+        
+    }
+    .row img {
+        margin: 10px 100px 20px 100px;
+        padding: 10px 100px 20px 100px;
+    }
+    .info {
+        margin: 0 40px;
+    }
+    form {
+        margin: 10px 40px;
+    }
+    
     .headshot {
-        padding-left: 125px;
+        padding-left: 80px;
     }
    footer {
        margin-top: 40px;
        padding-bottom: 30px;
    }
+
 }
 
 
