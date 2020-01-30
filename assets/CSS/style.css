@@ -174,6 +174,13 @@ footer {
         padding-left: 80px;
         margin-left: 20px;
     }
+    .row img {
+        margin: 10px 10px 20px 20px;
+        padding: 10px 10px 20px 20px;
+    }
+    .info {
+        margin: 0 40px;
+    }
     .info {
         margin: 0 40px;
     }
@@ -181,7 +188,66 @@ footer {
         border-bottom: black 1px solid;
         color: rgb(91,192,222);
         padding-bottom: 20px;
+    }
+    form {
+        margin: 10px 40px;
+    }
+}
+@media screen and (max-width: 980px) {
+
+    .toparea {
+        margin: 0;
         
+        width: 100%;
+        background: white;
+        
+        
+    }
+    #name {
+        margin-left: 30px;
+        width: 300px;
+    
+    
+    }
+    #navigation {
+     
+     float: right; 
+     padding: 30px 20px 0 0;
+     margin: 0;
+     
+     width: 320px;
+    }
+    .contenttitle {
+        margin: 20px 40px;
+    }
+    .portholder {
+        margin: 20px 50px 20px 80px;
+        display: inline-block;
+        width: 600px;
+
+    }
+    .headshot {
+        padding-left: 80px;
+        margin-left: 20px;
+    }
+    .row img {
+        margin: 10px 10px 20px 20px;
+        padding: 10px 10px 20px 20px;
+    }
+    .info {
+        margin: 0 40px;
+    }
+    .info {
+        margin: 0 40px;
+    }
+    .contenttitle h1 {
+        border-bottom: black 1px solid;
+        color: rgb(91,192,222);
+        padding-bottom: 20px;
+    }
+    form {
+        margin: 10px 40px;
+    }
 }
 
    
